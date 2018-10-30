@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top": { "model": "almightyelement:kryptonite_block" },
+        "half=bottom": { "model": "almightyelement:kryptonite_block" }
+    }
+}

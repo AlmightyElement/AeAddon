@@ -1,0 +1,31 @@
+item.kryptonite.name=Kryptonite
+item.saw.name=Saw
+
+tile.kryptonite_ore.name=Kryptonite Ore
+tile.kryptonite_ore_nether.name=Kryptonite Nether Ore
+tile.kryptonite_ore_end.name=Kryptonite End Ore
+
+tile.kryptonite_stairs.name=Kryptonite Stairs
+tile.kryptonite_slab_half.name=Kryptonite Slab
+tile.kryptonite_slab_double.name=Kryptonite Double Slab
+
+tile.kryptonite_block.name=Kryptonite Block
+tile.iskallium.name=Iskallium
+tile.stripped_log.name=Stripped Log
+tile.smooth_sandstone.name=Smooth Sandstone
+tile.Block3.name=Block3
+tile.Block4.name=Block4
+
+itemGroup.kryptonitetab=AE Addon
+
+item.kryptonite_helmet.name=Kryptonite Helmet
+item.kryptonite_chestplate.name=Kryptonite Chestplate
+item.kryptonite_leggings.name=Kryptonite Leggings
+item.kryptonite_boots.name=Kryptonite Boots
+
+item.kryptonite_axe.name=Kryptonite Axe
+item.kryptonite_hoe.name=Kryptonite Hoe
+item.kryptonite_pickaxe.name=Kryptonite Pickaxe
+item.kryptonite_sword.name=Kryptonite Sword
+item.kryptonite_shovel.name=Kryptonite Shovel
+item.kryptonite_multitool.name=Kryptonite Multitool

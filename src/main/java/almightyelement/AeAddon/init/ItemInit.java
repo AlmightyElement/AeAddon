@@ -67,11 +67,6 @@ public static class RegistrationHandler {
 		};
 
 		registry.registerAll(items);
-		ForgeRegistries.ITEMS.registerAll(items);
-		
-		ModelLoader.setCustomModelResourceLocation(kryptonite, 0, new ModelResourceLocation(kryptonite.getRegistryName(), "inventory"));
-		ModelLoader.setCustomModelResourceLocation(saw, 0, new ModelResourceLocation(saw.getRegistryName(), "inventory"));
-		
 
 	}
 
@@ -85,11 +80,4 @@ public static class RegistrationHandler {
 	}
 
 
-private static void registerTileEntities() {
-	
-}
-
-private static void registerTileEntity(final Class<? extends TileEntity> tileEntityClass, final String name) {
-	GameRegistry.registerTileEntity(tileEntityClass, Reference.MODID + ":" + name);
-}
 }

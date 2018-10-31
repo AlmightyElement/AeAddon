@@ -65,7 +65,7 @@ public static class RegistrationHandler {
 		};
 
 		registry.registerAll(items);
-		ForgeRegistries.ITEMS.registerAll(items);
+
 		
 		ModelLoader.setCustomModelResourceLocation(kryptonite_helmet, 0, new ModelResourceLocation(kryptonite_helmet.getRegistryName(), "inventory"));
 		ModelLoader.setCustomModelResourceLocation(kryptonite_chestplate, 0, new ModelResourceLocation(kryptonite_chestplate.getRegistryName(), "inventory"));

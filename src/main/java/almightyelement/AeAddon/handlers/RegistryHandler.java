@@ -17,6 +17,7 @@ public class RegistryHandler
 	public static void Common()
 	{
 		
+		//GameRegistry.registerWorldGenerator(new KryptoniteOreGen(), 0);
 		GameRegistry.registerWorldGenerator(new KryptoniteOreGen(), 0);
 	}
 }

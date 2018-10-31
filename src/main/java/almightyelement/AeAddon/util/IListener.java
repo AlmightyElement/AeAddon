@@ -6,15 +6,5 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public interface IListener
 {
-    default void preInit(FMLPreInitializationEvent event)
-    {
-    }
-
-    default void init(FMLInitializationEvent event)
-    {
-    }
-
-    default void postInit(FMLPostInitializationEvent event)
-    {
-    }
+   
 }

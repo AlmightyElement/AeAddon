@@ -18,6 +18,7 @@ import almightyelement.AeAddon.init.blocks.slab.CustomBlockHalfSlab;
 import almightyelement.AeAddon.init.blocks.slab.CustomBlockSlab;
 import almightyelement.AeAddon.init.blocks.slab.CustomSlab;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelBlock;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -79,7 +80,7 @@ public static class RegistrationHandler {
 		};
 
 		registry.registerAll(blocks);
-		ForgeRegistries.BLOCKS.registerAll(blocks);
+
 
 		
 
@@ -122,7 +123,6 @@ public static class RegistrationHandler {
 			
 			ITEM_BLOCKS.add(item);
 			
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
 	/**
 			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(iskallium), 0, new ModelResourceLocation(iskallium.getRegistryName(), "inventory"));
 			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block3), 0, new ModelResourceLocation(block3.getRegistryName(), "inventory"));
@@ -132,9 +132,9 @@ public static class RegistrationHandler {
 		}
 
 		registerTileEntities();
-		ForgeRegistries.ITEMS.registerAll(items);
 	
 	}
+
 }
 
 

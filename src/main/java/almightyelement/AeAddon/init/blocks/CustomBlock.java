@@ -12,5 +12,7 @@ public class CustomBlock extends Block
 		setRegistryName(name);
 		setHardness(hardness);
 		setResistance(resistance);
+		
+		
 	}
 }

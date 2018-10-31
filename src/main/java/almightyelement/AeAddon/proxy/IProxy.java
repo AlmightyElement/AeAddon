@@ -10,15 +10,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public interface IProxy extends IListener
 {
-    IThreadListener getContextListener();
-
-    World getClientWorld();
-
-    EntityPlayer getClientPlayer();
-
-    int getViewDistance();
-
-    void addToast(ItemStack icon, String langKey);
 
 
 }

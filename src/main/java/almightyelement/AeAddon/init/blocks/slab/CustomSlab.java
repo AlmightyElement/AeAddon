@@ -2,7 +2,6 @@ package almightyelement.AeAddon.init.blocks.slab;
 
 import almightyelement.AeAddon.ModClass;
 import almightyelement.AeAddon.Reference;
-import almightyelement.AeAddon.util.Constants;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -61,7 +60,7 @@ if (isDouble()) {
 }
 
 setRegistryName(Reference.MODID, name);
-setUnlocalizedName(Constants.RESOURCE_PREFIX + slabGroup.groupName);
+setUnlocalizedName(Reference.MODID + ":" + slabGroup.groupName);
 
 IBlockState iblockstate = this.blockState.getBaseState();
 

@@ -16,13 +16,6 @@ public class RegistryHandler
 	
 	public static void Common()
 	{
-		ItemInit.init();
-		ItemInit.register();
-		
-
-		
-		ArmourInit.init();
-		ArmourInit.register();
 		
 		GameRegistry.registerWorldGenerator(new KryptoniteOreGen(), 0);
 	}

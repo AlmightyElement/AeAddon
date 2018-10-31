@@ -13,8 +13,8 @@ tile.kryptonite_block.name=Kryptonite Block
 tile.iskallium.name=Iskallium
 tile.stripped_log.name=Stripped Log
 tile.smooth_sandstone.name=Smooth Sandstone
-tile.Block3.name=Block3
-tile.Block4.name=Block4
+tile.block3.name=Block3 (placeholder)
+tile.block4.name=Block4 (placeholder)
 
 itemGroup.kryptonitetab=AE Addon
 

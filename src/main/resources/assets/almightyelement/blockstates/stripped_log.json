@@ -1,8 +1,8 @@
 {
     "variants": {
-        "axis=y":  { "model": "almightyelement:block/stripped_log" },
-        "axis=z":   { "model": "almightyelement:block/stripped_log", "x": 90 },
-        "axis=x":   { "model": "almightyelement:block/stripped_log", "x": 90, "y": 90 },
-        "axis=none":   { "model": "almightyelement:block/stripped_log"}
+        "axis=y":  { "model": "almightyelement:stripped_log" },
+        "axis=z":   { "model": "almightyelement:stripped_log", "x": 90 },
+        "axis=x":   { "model": "almightyelement:stripped_log", "x": 90, "y": 90 },
+        "axis=none":   { "model": "almightyelement:stripped_log"}
     }
 }

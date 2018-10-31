@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "almightyelement:saw"
+        },
+        {
+            "item": "minecraft:log"
+		data": 32767
+        }
+    ],
+    "result": {
+        "item": "almightyelement:stripped_log",
+        "count": 1
+    }
+}

@@ -5,8 +5,8 @@
             "item": "almightyelement:saw"
         },
         {
-            "item": "minecraft:log"
-		data": 32767
+            "item": "minecraft:log",
+		    "data": 32767
         }
     ],
     "result": {
